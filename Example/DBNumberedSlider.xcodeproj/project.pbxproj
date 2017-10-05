@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C50810C01F864EBD008CF068 /* DBNumberedSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C50810BF1F864EBD008CF068 /* DBNumberedSlider.m */; };
 		C5AFDA2B1F86347500AE66FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AFDA2A1F86347500AE66FB /* AppDelegate.m */; };
 		C5AFDA311F86347500AE66FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AFDA2F1F86347500AE66FB /* Main.storyboard */; };
 		C5AFDA331F86347500AE66FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AFDA321F86347500AE66FB /* Assets.xcassets */; };
 		C5AFDA361F86347500AE66FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AFDA341F86347500AE66FB /* LaunchScreen.storyboard */; };
 		C5AFDA391F86347500AE66FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AFDA381F86347500AE66FB /* main.m */; };
-		C5AFDA411F8634C500AE66FB /* DBNumberedSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AFDA401F8634C500AE66FB /* DBNumberedSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C50810BE1F864EBD008CF068 /* DBNumberedSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DBNumberedSlider.h; path = ../../Classes/DBNumberedSlider.h; sourceTree = "<group>"; };
+		C50810BF1F864EBD008CF068 /* DBNumberedSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DBNumberedSlider.m; path = ../../Classes/DBNumberedSlider.m; sourceTree = "<group>"; };
 		C5AFDA261F86347500AE66FB /* DBNumberedSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBNumberedSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5AFDA291F86347500AE66FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5AFDA2A1F86347500AE66FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -24,8 +26,6 @@
 		C5AFDA351F86347500AE66FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5AFDA371F86347500AE66FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5AFDA381F86347500AE66FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C5AFDA3F1F8634C500AE66FB /* DBNumberedSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBNumberedSlider.h; sourceTree = "<group>"; };
-		C5AFDA401F8634C500AE66FB /* DBNumberedSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBNumberedSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 		C5AFDA281F86347500AE66FB /* DBNumberedSlider */ = {
 			isa = PBXGroup;
 			children = (
-				C5AFDA3F1F8634C500AE66FB /* DBNumberedSlider.h */,
-				C5AFDA401F8634C500AE66FB /* DBNumberedSlider.m */,
+				C50810BE1F864EBD008CF068 /* DBNumberedSlider.h */,
+				C50810BF1F864EBD008CF068 /* DBNumberedSlider.m */,
 				C5AFDA291F86347500AE66FB /* AppDelegate.h */,
 				C5AFDA2A1F86347500AE66FB /* AppDelegate.m */,
 				C5AFDA2F1F86347500AE66FB /* Main.storyboard */,
@@ -142,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5AFDA411F8634C500AE66FB /* DBNumberedSlider.m in Sources */,
+				C50810C01F864EBD008CF068 /* DBNumberedSlider.m in Sources */,
 				C5AFDA391F86347500AE66FB /* main.m in Sources */,
 				C5AFDA2B1F86347500AE66FB /* AppDelegate.m in Sources */,
 			);
