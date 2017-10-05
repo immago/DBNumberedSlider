@@ -107,8 +107,8 @@
     return _font.pointSize;
 }
 
--(void)setFontName:(NSString *)fontFamily {
-    _font = [UIFont fontWithName:fontFamily size:self.fontSize];
+-(void)setFontName:(NSString *)fontName {
+    _font = [UIFont fontWithName:fontName size:self.fontSize];
 }
 
 -(NSString*)fontName {
